@@ -1,3 +1,5 @@
+'use client'
+
 const CartIcon = (): JSX.Element => {
   return (
     <svg
@@ -5,7 +7,7 @@ const CartIcon = (): JSX.Element => {
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
-      xmlns="[http://www.w3.org/2000/svg"](http://www.w3.org/2000/svg")
+      xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
     >
       <path
