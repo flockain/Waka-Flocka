@@ -14,13 +14,13 @@ const Header = (): JSX.Element => {
   const totalItems = cartItems.reduce((total, item) => total + item.quantity, 0)
 
   const navLinks = [
-    { name: 'Home', href: '/' },
-    { name: 'Merchandise', href: '/category/merchandise' },
-    { name: 'Song Features', href: '/category/features' },
-    { name: 'Studio Sessions', href: '/category/studio' },
-    { name: 'Concert Bookings', href: '/category/concerts' },
-    { name: 'Admin', href: '/admin' },
-  ]
+  { name: 'Home', href: '/' },
+  { name: 'Merchandise', href: '/category/merchandise' },
+  { name: 'Song Features', href: '/category/features' },
+  { name: 'Studio Sessions', href: '/category/studio' },
+  { name: 'Concert Bookings', href: '/category/concerts' },
+  { name: 'Admin', href: '/admin' },
+]
 
   const toggleMobileMenu = (): void => {
     setMobileMenuOpen(!mobileMenuOpen)
