@@ -15,10 +15,10 @@ const Header = (): JSX.Element => {
 
   const navLinks = [
   { name: 'Home', href: '/' },
-  { name: 'Merchandise', href: '/category/merchandise' },
-  { name: 'Song Features', href: '/category/features' },
-  { name: 'Studio Sessions', href: '/category/studio' },
-  { name: 'Concert Bookings', href: '/category/concerts' },
+  { name: 'Merchandise', href: '/merchandise' }, // Changed from /category/merchandise
+  { name: 'Song Features', href: '/features' },  // Changed from /category/features
+  { name: 'Studio Sessions', href: '/studio' },  // Changed from /category/studio
+  { name: 'Concert Bookings', href: '/concerts' }, // Changed from /category/concerts
   { name: 'Admin', href: '/admin' },
 ]
 
