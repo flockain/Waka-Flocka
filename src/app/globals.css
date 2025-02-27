@@ -1,6 +1,6 @@
-[@tailwind](/users/tailwind) base; 
-[@tailwind](/users/tailwind) components; 
-[@tailwind](/users/tailwind) utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --foreground-rgb: 0, 0, 0;
